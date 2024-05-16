@@ -2,20 +2,9 @@
 
 <img src="./frontend/public/images/screens.png">
 
-- Create a PayPal account and obtain your `Client ID` - [PayPal Developer](https://developer.paypal.com/)
-
 ### Env Variables
 
-Rename the `.env.example` file to `.env` and add the following
-
-```
-NODE_ENV = development
-PORT = 5000
-MONGO_URI = your mongodb uri
-JWT_SECRET = 'abc123'
-PAYPAL_CLIENT_ID = your paypal client id
-PAGINATION_LIMIT = 8
-```
+Rename the `.env.example` file to `.env`
 
 ### Install Dependencies (frontend & backend)
 
@@ -70,3 +59,5 @@ jane@email.com (Customer)
 cd frontend
 npm run build
 ```
+
+- Create a PayPal account and obtain your `Client ID` - [PayPal Developer](https://developer.paypal.com/)
